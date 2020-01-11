@@ -1,0 +1,143 @@
+body
+{
+    background-size: cover;
+    background-color: #96ff86;
+}
+header
+{
+    font-family: 'Courier Prime', monospace;
+    background-size: contain;
+    width: 1400px;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    color: #54ba4a;
+    background-color: #ffba86;
+    margin: -5px;
+}
+li
+{
+    background-color: pink;
+    border-radius: 30%;
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ef86ff;
+}
+a:visited
+{
+    color: green;
+}
+a:hover
+{
+    animation-name: animate;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+form
+{
+    font-family: 'Courier Prime', cursive;;
+    color: blue;
+    margin-top: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    position: relative;
+}
+fieldset
+{
+    
+    background-color: skyblue;
+    border-radius: 20%;
+    border-color: pink;
+    border-width: 5px;
+}
+legend
+{
+    font-family: 'Roboto Slab', serif;
+    background-color: violet;
+    border-radius: 20%;
+}
+.users
+{
+    margin: 20px 30px 10px 20px;
+    background-color: pink;
+    border-right: 10%; 
+    box-shadow: 3px 3px;
+}
+textarea
+{
+    height: 100px;
+    width: 250px;
+}
+
+/*.submit
+{
+    position: absolute;
+    background-color: gray;
+    top: 97px;
+    left: 470px;
+    border-radius: 20%;
+}*/
+.suggest
+{
+    position: relative;
+    top: 25px;
+}
+.users
+{
+	 text-align: center;
+	 font-family: cursive;
+	 border-radius: 20px;
+	 border-style: double;
+	 border-width: 2px;
+	 border-color: teal;
+}
+.submit
+{
+	width: 100px;
+    background-color: gray;
+    color: green;
+}
+.submit:hover
+{
+	color: orange;
+	background-color: pink;
+}
+#gend
+{
+    background-color: skyblue;
+    margin: 20px 30px 10px 20px;
+    box-shadow: 3px 3px skyblue;
+    border: none;
+}
+footer
+{
+    width: 1400px;
+    margin: -5px;
+    margin-bottom: -30px;
+    background-color: pink;
+    color: green;
+}
+address
+{
+    margin-top: 20px; 
+    text-align: center;
+    font-weight: bolder;
+    line-height: 25px;
+}
+@keyframes animate
+{
+	0%
+	{
+		color: orange;
+		font-size: default;
+		font-weight: normal;
+	}
+	100%
+	{
+		color: teal;
+		font-size: 18px;
+		font-weight: bolder;
+	}
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fillform.css">
+	<title>Learning CSS</title>
+</head>
+<body>
+	<header>
+		<h1>My Web Site</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Profile</a></li>
+				<li><a href="#">Interest</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<form>
+			<fieldset>
+				<legend>Please fill the form</legend>
+				<input type="text" name="fname" placeholder="First Name" required autofocus class="fname users">
+				<input type="text" name="lname" placeholder="Last name" required class="lname users"><br>
+				<input type="email" name="useremail" placeholder="Email Address" required class="uemail users">
+				<input type="tel" name="usernum" placeholder="Phone Number" class="phone users">
+				<div class="gender users" id="gend">
+					<label for="male">
+						Male<input type="radio" name="gender" id="male" checked>
+					</label>
+					<label for="Female">
+						Female<input type="radio" name="gender" id="Female">
+					</label>
+					<label for="Others">
+						Others<input type="radio" name="gender" id="Others">
+					</label>
+				</div>
+				Date Of Birth:<input type="date" name="dob" class="dob users" required>
+				Country:<select class="select users">
+					<option>Nepal</option>
+					<option>India</option>
+					<option>China</option>
+				</select>
+				<br>
+				Recent Photos:<input type="file" name="img" accept="image/*" class="files users">
+				<br>
+				<div class ="suggest">Suggestions:</div><br><textarea class="users suggestions" placeholder="Please send Some Suggestions"></textarea>
+				<br>
+				<input type="submit" name="submit" class="submit users">
+			</fieldset>
+		</form>
+	</main>
+	<footer>
+		<address>
+			<a href="mailto:ayushmainali11@gmail.com">Copyright: Ayush Mainali</a>
+			<br>
+			Putalisadak, Kathmandu, Nepal
+			<br>
+			Phone no: 9811335594
+		</address>
+	</footer>
+</body>
+</html>
